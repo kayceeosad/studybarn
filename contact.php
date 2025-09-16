@@ -60,7 +60,7 @@
                 <div class="d-inline-flex align-items-center" style="height: 45px;">
                     <a href="#" class="text-muted me-2"> Help</a><small> / </small>
                     <a href="#" class="text-muted mx-2"> Support</a><small> / </small>
-                    <a href="contact.html" class="text-muted ms-2"> Contact</a>
+                    <a href="contact" class="text-muted ms-2"> Contact</a>
                 </div>
             </div>
         </div>
@@ -70,7 +70,7 @@
      <!-- Navbar & Hero Start -->
     <div class="container-fluid nav-bar p-0">
         <nav class="navbar navbar-expand-lg navbar-light bg-white px-4 px-lg-5 py-3 py-lg-0">
-            <a href="index.html" class="navbar-brand d-flex align-items-center p-0">
+            <a href="index" class="navbar-brand d-flex align-items-center p-0">
   <img src="img/logo22.png"
        alt="StudyBarn Logo"
        class="me-3"
@@ -82,14 +82,14 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto py-0">
-                    <a href="index.html" class="nav-item nav-link ">Home</a>
-                    <a href="about.html" class="nav-item nav-link ">About</a>
-                    <a href="service.html" class="nav-item nav-link  ">Services</a>
-                    <a href="training.html" class="nav-item nav-link ">Training</a>
-                    <a href="testimonial.html" class="nav-item nav-link active">Testimonials</a>
-                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    <a href="index" class="nav-item nav-link ">Home</a>
+                    <a href="about" class="nav-item nav-link ">About</a>
+                    <a href="service" class="nav-item nav-link  ">Services</a>
+                    <a href="training" class="nav-item nav-link ">Training</a>
+                    <a href="testimonial" class="nav-item nav-link ">Testimonials</a>
+                    <a href="contact" class="nav-item nav-link active">Contact</a>
                 </div>
-                <a href="contact.html" class="btn btn-primary border-secondary rounded-pill py-2 px-4 px-lg-3 mb-3 mb-md-3 mb-lg-0">Get Started</a>
+                <a href="contact" class="btn btn-primary border-secondary rounded-pill py-2 px-4 px-lg-3 mb-3 mb-md-3 mb-lg-0">Get Started</a>
             </div>
         </nav>
     </div>
@@ -117,96 +117,153 @@
         <!-- Header Start -->
         <div class="container-fluid bg-breadcrumb">
             <div class="container text-center py-5" style="max-width: 900px;">
-                <h3 class="text-white display-3 mb-4 wow fadeInDown" data-wow-delay="0.1s">Our Testimonial</h1>
+                <h3 class="text-white display-3 mb-4 wow fadeInDown" data-wow-delay="0.1s">Contact Us</h1>
                 <ol class="breadcrumb justify-content-center text-white mb-0 wow fadeInDown" data-wow-delay="0.3s">
-                    <li class="breadcrumb-item"><a href="index.html" class="text-white">Home</a></li>
+                    <li class="breadcrumb-item"><a href="index" class="text-white">Home</a></li>
                     
-                    <li class="breadcrumb-item active text-secondary">Testimonial</li>
+                    <li class="breadcrumb-item active text-secondary">Contact</li>
                 </ol>    
             </div>
         </div>
         <!-- Header End -->
 
-        <!-- Testimonial Start -->
-<div class="container-fluid testimonial overflow-hidden pb-5">
+       <!-- Contact Start -->
+<div class="container-fluid contact overflow-hidden py-5">
     <div class="container py-5">
-        <div class="section-title text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="sub-style">
-                <h5 class="sub-title text-primary px-3">Our Clients’ Reviews</h5>
+        <div class="row g-5 mb-5">
+            <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
+                <div class="sub-style">
+                    <h5 class="sub-title text-primary pe-3">Quick Contact</h5>
+                </div>
+                <h1 class="display-5 mb-4">Have Questions? Don’t Hesitate to Contact Us</h1>
+                <p class="mb-5">
+                    At Study Barn Travels, we are here to guide and support you with all your educational consultancy and travel needs. Reach out to us today for quick assistance.
+                </p>
+                <div class="d-flex border-bottom mb-4 pb-4">
+                    <i class="fas fa-map-marked-alt fa-4x text-primary bg-light p-3 rounded"></i>
+                    <div class="ps-3">
+                        <h5>Location</h5>
+                        <p>24 Allen Avenue, Ikeja, Lagos, Nigeria</p>
+                    </div>
+                </div>
+                <div class="row g-3">
+                    <div class="col-xl-6">
+                        <div class="d-flex">
+                            <i class="fas fa-tty fa-3x text-primary"></i>
+                            <div class="ps-3">
+                                <h5 class="mb-3">Quick Contact</h5>
+                                <div class="mb-3">
+                                    <h6 class="mb-0">Phone:</h6>
+                                    <a href="tel:+2348147647196" class="fs-5 text-primary">+234-814-764-7196</a>
+                                </div>
+                                <div class="mb-3">
+                                    <h6 class="mb-0">Email:</h6>
+                                    <a href="mailto:info@studybarn.org" class="fs-5 text-primary">info@studybarn.org</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="d-flex">
+                            <i class="fas fa-clone fa-3x text-primary"></i>
+                            <div class="ps-3">
+                                <h5 class="mb-3">Opening Hours</h5>
+                                <div class="mb-3">
+                                    <h6 class="mb-0">Mon - Friday:</h6>
+                                    <span class="fs-5 text-primary">09.00 am to 07.00 pm</span>
+                                </div>
+                                <div class="mb-3">
+                                    <h6 class="mb-0">Saturday:</h6>
+                                    <span class="fs-5 text-primary">10.00 am to 05.00 pm</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center pt-3">
+                    <div class="me-4">
+                        <div class="bg-light d-flex align-items-center justify-content-center" style="width: 90px; height: 90px; border-radius: 10px;">
+                            <i class="fas fa-share fa-3x text-primary"></i>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <a class="btn btn-secondary border-secondary me-2 p-0" href="#">Facebook <i class="fas fa-chevron-circle-right"></i></a>
+                        <a class="btn btn-secondary border-secondary mx-2 p-0" href="#">Twitter <i class="fas fa-chevron-circle-right"></i></a>
+                        <a class="btn btn-secondary border-secondary mx-2 p-0" href="#">Instagram <i class="fas fa-chevron-circle-right"></i></a>
+                    </div>
+                </div>
             </div>
-            <h1 class="display-5 mb-4">What Our Clients Say</h1>
-            <p class="mb-0">We pride ourselves on making global opportunities accessible. Here’s what our happy clients have to say about their journey with Study Barn Travels.</p>
+            <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.3">
+                <div class="sub-style">
+                    <h5 class="sub-title text-primary pe-3">Let’s Connect</h5>
+                </div>
+                <h1 class="display-5 mb-4">Send Your Message</h1>
+                <p class="mb-3">
+                    Fill out the form below and our team will get back to you shortly.
+                </p>
+                <form action="proc-contact.php" method="post">
+                    <div class="row g-4">
+                        <div class="col-lg-12 col-xl-6">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" name="name" placeholder="Your Name">
+                                <label for="name">Your Name</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-xl-6">
+                            <div class="form-floating">
+                                <input type="email" class="form-control" name="email" placeholder="Your Email">
+                                <label for="email">Your Email</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-xl-6">
+                            <div class="form-floating">
+                                <input type="phone" class="form-control" name="phone" placeholder="Phone">
+                                <label for="phone">Your Phone</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-xl-6">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" name="project" placeholder="Project">
+                                <label for="project">Your Project</label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" name="subject" placeholder="Subject">
+                                <label for="subject">Subject</label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-floating">
+                                <textarea class="form-control" placeholder="Leave a message here" name="message" style="height: 160px"></textarea>
+                                <label for="message">Message</label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <button class="btn btn-primary w-100 py-3">Send Message</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
         </div>
-        <div class="owl-carousel testimonial-carousel wow zoomInDown" data-wow-delay="0.2s">
-            <div class="testimonial-item">
-                <div class="testimonial-content p-4 mb-5">
-                    <p class="fs-5 mb-0">Study Barn Travels guided me step-by-step through my visa application. Today, I’m pursuing my dream studies abroad—thanks to their support!</p>
-                    <div class="d-flex justify-content-end">
-                        <i class="fas fa-star text-secondary"></i>
-                        <i class="fas fa-star text-secondary"></i>
-                        <i class="fas fa-star text-secondary"></i>
-                        <i class="fas fa-star text-secondary"></i>
-                        <i class="fas fa-star text-secondary"></i>
-                    </div>
-                </div>
-                <div class="d-flex">
-                    <div class="rounded-circle me-4" style="width: 100px; height: 100px;">
-                        <img class="img-fluid rounded-circle" src="img/testimonial-1.jpg" alt="client image">
-                    </div>
-                    <div class="my-auto">
-                        <h5>Jane Doe</h5>
-                        <p class="mb-0">Student, Canada</p>
-                    </div>
-                </div>
-            </div>
-            <div class="testimonial-item">
-                <div class="testimonial-content p-4 mb-5">
-                    <p class="fs-5 mb-0">Their training services are excellent. My IELTS score improved dramatically after their coaching program!</p>
-                    <div class="d-flex justify-content-end">
-                        <i class="fas fa-star text-secondary"></i>
-                        <i class="fas fa-star text-secondary"></i>
-                        <i class="fas fa-star text-secondary"></i>
-                        <i class="fas fa-star text-secondary"></i>
-                        <i class="fas fa-star text-secondary"></i>
-                    </div>
-                </div>
-                <div class="d-flex">
-                    <div class="rounded-circle me-4" style="width: 100px; height: 100px;">
-                        <img class="img-fluid rounded-circle" src="img/testimonial-2.jpg" alt="client image">
-                    </div>
-                    <div class="my-auto">
-                        <h5>Michael O.</h5>
-                        <p class="mb-0">IELTS Candidate</p>
-                    </div>
-                </div>
-            </div>
-            <div class="testimonial-item">
-                <div class="testimonial-content p-4 mb-5">
-                    <p class="fs-5 mb-0">Professional, reliable, and fast. Study Barn Travels made my travel process stress-free.</p>
-                    <div class="d-flex justify-content-end">
-                        <i class="fas fa-star text-secondary"></i>
-                        <i class="fas fa-star text-secondary"></i>
-                        <i class="fas fa-star text-secondary"></i>
-                        <i class="fas fa-star text-secondary"></i>
-                        <i class="fas fa-star text-secondary"></i>
-                    </div>
-                </div>
-                <div class="d-flex">
-                    <div class="rounded-circle me-4" style="width: 100px; height: 100px;">
-                        <img class="img-fluid rounded-circle" src="img/testimonial-3.jpg" alt="client image">
-                    </div>
-                    <div class="my-auto">
-                        <h5>Aisha Bello</h5>
-                        <p class="mb-0">Professional, UK</p>
+        <div class="office pt-5">
+            <div class="row g-4 justify-content-center">
+                <div class="col-12 pt-5 wow zoomIn" data-wow-delay="0.1s">
+                    <div class="rounded h-100">
+                        <iframe class="rounded w-100" 
+                        style="height: 500px;" 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.351541705418!2d3.3521!3d6.5965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b92f45a4d3d23%3A0x8c4f0d6b3e68d8a2!2s24%20Allen%20Ave%2C%20Ikeja%2C%20Lagos%2C%20Nigeria!5e0!3m2!1sen!2sng!4v1694259649153" 
+                        loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<!-- Testimonial End -->
+<!-- Contact End -->
 
-        <!-- Footer Start -->
+
+         <!-- Footer Start -->
 <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
     <div class="container py-5">
         <div class="row g-5">
@@ -267,7 +324,7 @@
     </div>
 </div>
 <!-- Footer End -->
-        
+
         <!-- Copyright Start -->
         <div class="container-fluid copyright py-4">
             <div class="container">
@@ -275,7 +332,7 @@
                     <div class="col-md-6 text-center text-md-start mb-md-0">
                         <span class="text-white"><a href="#" class="border-bottom text-white"><i class="fas fa-copyright text-light me-2"></i>Study Barn Travels</a>, All right reserved.</span>
                     </div>
-                   
+                    
                 </div>
             </div>
         </div>

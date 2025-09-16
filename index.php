@@ -58,9 +58,9 @@
             </div>
             <div class="col-lg-4 text-center text-lg-end">
                 <div class="d-inline-flex align-items-center" style="height: 45px;">
-                    <a href="about.html" class="text-muted me-2">About</a><small> / </small>
-                    <a href="service.html" class="text-muted mx-2">Services</a><small> / </small>
-                    <a href="contact.html" class="text-muted ms-2">Contact</a>
+                    <a href="about" class="text-muted me-2">About</a><small> / </small>
+                    <a href="service" class="text-muted mx-2">Services</a><small> / </small>
+                    <a href="contact" class="text-muted ms-2">Contact</a>
                 </div>
             </div>
         </div>
@@ -70,7 +70,7 @@
     <!-- Navbar & Hero Start -->
     <div class="container-fluid nav-bar p-0">
         <nav class="navbar navbar-expand-lg navbar-light bg-white px-4 px-lg-5 py-3 py-lg-0">
-            <a href="index.html" class="navbar-brand d-flex align-items-center p-0">
+            <a href="index" class="navbar-brand d-flex align-items-center p-0">
   <img src="img/logo22.png"
        alt="StudyBarn Logo"
        class="me-3"
@@ -82,14 +82,14 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto py-0">
-                    <a href="index.html" class="nav-item nav-link active">Home</a>
-                    <a href="about.html" class="nav-item nav-link ">About</a>
-                    <a href="service.html" class="nav-item nav-link ">Services</a>
-                    <a href="training.html" class="nav-item nav-link ">Training</a>
-                    <a href="testimonial.html" class="nav-item nav-link">Testimonials</a>
-                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    <a href="index" class="nav-item nav-link active">Home</a>
+                    <a href="about" class="nav-item nav-link ">About</a>
+                    <a href="service" class="nav-item nav-link ">Services</a>
+                    <a href="training" class="nav-item nav-link ">Training</a>
+                    <a href="testimonial" class="nav-item nav-link">Testimonials</a>
+                    <a href="contact" class="nav-item nav-link">Contact</a>
                 </div>
-                <a href="contact.html" class="btn btn-primary border-secondary rounded-pill py-2 px-4 px-lg-3 mb-3 mb-md-3 mb-lg-0">Get Started</a>
+                <a href="contact" class="btn btn-primary border-secondary rounded-pill py-2 px-4 px-lg-3 mb-3 mb-md-3 mb-lg-0">Get Started</a>
             </div>
         </nav>
     </div>
@@ -110,7 +110,7 @@
                             <h4 class="text-white text-uppercase fw-bold mb-3 mb-md-4 wow fadeInUp" data-wow-delay="0.1s">Your Gateway To Global Education</h4>
                             <h1 class="display-1 text-capitalize text-white mb-3 mb-md-4 wow fadeInUp" data-wow-delay="0.3s">Study & Travel With Confidence</h1>
                             <p class="text-white mb-4 mb-md-5 fs-5 wow fadeInUp" data-wow-delay="0.5s">At Study Barn Travels, we provide expert guidance for studying abroad and seamless travel planning so you can focus on your future.</p>
-                            <a class="btn btn-primary border-secondary rounded-pill text-white py-3 px-5 wow fadeInUp" data-wow-delay="0.7s" href="about.html">Learn More</a>
+                            <a class="btn btn-primary border-secondary rounded-pill text-white py-3 px-5 wow fadeInUp" data-wow-delay="0.7s" href="about">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -121,7 +121,7 @@
                             <h5 class="text-white text-uppercase fw-bold mb-3 mb-md-4 wow fadeInUp" data-wow-delay="0.1s">Educational Consultancy & Travel</h5>
                             <h1 class="display-1 text-capitalize text-white mb-3 mb-md-4 wow fadeInUp" data-wow-delay="0.3s">Opportunities Beyond Borders</h1>
                             <p class="text-white mb-4 mb-md-5 fs-5 wow fadeInUp" data-wow-delay="0.5s">We combine academic excellence with cultural experiences to give you a truly global perspective on education and travel.</p>
-                            <a class="btn btn-primary border-secondary rounded-pill text-white py-3 px-5 wow fadeInUp" data-wow-delay="0.7s" href="service.html">Explore Services</a>
+                            <a class="btn btn-primary border-secondary rounded-pill text-white py-3 px-5 wow fadeInUp" data-wow-delay="0.7s" href="service">Explore Services</a>
                         </div>
                     </div>
                 </div>

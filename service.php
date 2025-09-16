@@ -60,17 +60,17 @@
                 <div class="d-inline-flex align-items-center" style="height: 45px;">
                     <a href="#" class="text-muted me-2"> Help</a><small> / </small>
                     <a href="#" class="text-muted mx-2"> Support</a><small> / </small>
-                    <a href="contact.html" class="text-muted ms-2"> Contact</a>
+                    <a href="contact" class="text-muted ms-2"> Contact</a>
                 </div>
             </div>
         </div>
     </div>
     <!-- Topbar End -->
 
-    <!-- Navbar & Hero Start -->
+     <!-- Navbar & Hero Start -->
     <div class="container-fluid nav-bar p-0">
         <nav class="navbar navbar-expand-lg navbar-light bg-white px-4 px-lg-5 py-3 py-lg-0">
-            <a href="index.html" class="navbar-brand d-flex align-items-center p-0">
+            <a href="index" class="navbar-brand d-flex align-items-center p-0">
   <img src="img/logo22.png"
        alt="StudyBarn Logo"
        class="me-3"
@@ -82,52 +82,357 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto py-0">
-                    <a href="index.html" class="nav-item nav-link ">Home</a>
-                    <a href="about.html" class="nav-item nav-link ">About</a>
-                    <a href="service.html" class="nav-item nav-link ">Services</a>
-                    <a href="training.html" class="nav-item nav-link active">Training</a>
-                    <a href="testimonial.html" class="nav-item nav-link">Testimonials</a>
-                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    <a href="index" class="nav-item nav-link ">Home</a>
+                    <a href="about" class="nav-item nav-link ">About</a>
+                    <a href="service" class="nav-item nav-link active ">Services</a>
+                    <a href="training" class="nav-item nav-link ">Training</a>
+                    <a href="testimonial" class="nav-item nav-link">Testimonials</a>
+                    <a href="contact" class="nav-item nav-link">Contact</a>
                 </div>
-                <a href="contact.html" class="btn btn-primary border-secondary rounded-pill py-2 px-4 px-lg-3 mb-3 mb-md-3 mb-lg-0">Get Started</a>
+                <a href="contact" class="btn btn-primary border-secondary rounded-pill py-2 px-4 px-lg-3 mb-3 mb-md-3 mb-lg-0">Get Started</a>
             </div>
         </nav>
     </div>
     <!-- Navbar & Hero End -->
 
-        <!-- Modal Search Start -->
-        <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-fullscreen">
-                <div class="modal-content rounded-0">
-                    <div class="modal-header">
-                        <h4 class="modal-title text-secondary mb-0" id="exampleModalLabel">Search by keyword</h4>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    <!-- Modal Search Start -->
+    <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <h4 class="modal-title text-secondary mb-0" id="exampleModalLabel">Search by keyword</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex align-items-center">
+                    <div class="input-group w-75 mx-auto d-flex">
+                        <input type="search" class="form-control p-3" placeholder="keywords" aria-describedby="search-icon-1">
+                        <span id="search-icon-1" class="input-group-text p-3"><i class="fa fa-search"></i></span>
                     </div>
-                    <div class="modal-body d-flex align-items-center">
-                        <div class="input-group w-75 mx-auto d-flex">
-                            <input type="search" class="form-control p-3" placeholder="keywords" aria-describedby="search-icon-1">
-                            <span id="search-icon-1" class="input-group-text p-3"><i class="fa fa-search"></i></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Search End -->
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-breadcrumb">
+        <div class="container text-center py-5" style="max-width: 900px;">
+            <h3 class="text-white display-3 mb-4 wow fadeInDown" data-wow-delay="0.1s">Our Services</h3>
+            <ol class="breadcrumb justify-content-center text-white mb-0 wow fadeInDown" data-wow-delay="0.3s">
+                <li class="breadcrumb-item"><a href="index" class="text-white">Home</a></li>
+                <li class="breadcrumb-item active text-secondary">Services</li>
+            </ol>    
+        </div>
+    </div>
+    <!-- Header End -->
+
+<!-- Services Start -->
+<div class="container-fluid service overflow-hidden py-5">
+    <div class="container py-5">
+        <div class="section-title text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="sub-style">
+                <h5 class="sub-title text-primary px-3">Our Services</h5>
+            </div>
+            <h1 class="display-5 mb-4">Empowering Education and Travel Opportunities</h1>
+            <p class="mb-0">At Study Barn Travels, we provide expert guidance for students and travelers seeking academic excellence and cultural experiences worldwide. From admissions to visa processing, we ensure a smooth and rewarding journey.</p>
+        </div>
+        <div class="row g-4">
+            <!-- Service 1 -->
+            <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="service-item">
+                    <div class="service-inner">
+                        <div class="service-img">
+                            <img src="img/service-1.jpg" class="img-fluid w-100 rounded" alt="Study Abroad">
+                        </div>
+                        <div class="service-title">
+                            <div class="service-title-name">
+                                <div class="bg-primary text-center rounded p-3 mx-5 mb-4">
+                                    <a href="#" class="h4 text-white mb-0">Study Abroad Guidance</a>
+                                </div>
+                                <a class="btn bg-light text-secondary rounded-pill py-3 px-5 mb-4" href="#">Explore More</a>
+                            </div>
+                            <div class="service-content pb-4">
+                                <a href="#"><h4 class="text-white mb-4 py-3">Study Abroad Guidance</h4></a>
+                                <div class="px-4">
+                                    <p class="mb-4">We connect students with top universities worldwide, providing personalized counseling to match their academic goals.</p>
+                                    <a class="btn btn-primary border-secondary rounded-pill py-3 px-5" href="#">Explore More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Service 2 -->
+            <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="service-item">
+                    <div class="service-inner">
+                        <div class="service-img">
+                            <img src="img/service-2.jpg" class="img-fluid w-100 rounded" alt="Visa Assistance">
+                        </div>
+                        <div class="service-title">
+                            <div class="service-title-name">
+                                <div class="bg-primary text-center rounded p-3 mx-5 mb-4">
+                                    <a href="#" class="h4 text-white mb-0">Visa Assistance</a>
+                                </div>
+                                <a class="btn bg-light text-secondary rounded-pill py-3 px-5 mb-4" href="#">Explore More</a>
+                            </div>
+                            <div class="service-content pb-4">
+                                <a href="#"><h4 class="text-white mb-4 py-3">Visa Assistance</h4></a>
+                                <div class="px-4">
+                                    <p class="mb-4">We guide you through every step of the visa application process, ensuring higher chances of approval and peace of mind.</p>
+                                    <a class="btn btn-primary border-secondary rounded-pill text-white py-3 px-5" href="#">Explore More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Service 3 -->
+            <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="service-item">
+                    <div class="service-inner">
+                        <div class="service-img">
+                            <img src="img/service-3.jpg" class="img-fluid w-100 rounded" alt="Career Counseling">
+                        </div>
+                        <div class="service-title">
+                            <div class="service-title-name">
+                                <div class="bg-primary text-center rounded p-3 mx-5 mb-4">
+                                    <a href="#" class="h4 text-white mb-0">Career Counseling</a>
+                                </div>
+                                <a class="btn bg-light text-secondary rounded-pill py-3 px-5 mb-4" href="#">Explore More</a>
+                            </div>
+                            <div class="service-content pb-4">
+                                <a href="#"><h4 class="text-white mb-4 py-3">Career Counseling</h4></a>
+                                <div class="px-4">
+                                    <p class="mb-4">Our experts help you choose the right academic and career path, aligning your strengths with global opportunities.</p>
+                                    <a class="btn btn-primary border-secondary rounded-pill text-white py-3 px-5" href="#">Explore More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Service 4 -->
+            <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="service-item">
+                    <div class="service-inner">
+                        <div class="service-img">
+                            <img src="img/service-1.jpg" class="img-fluid w-100 rounded" alt="Test Preparation">
+                        </div>
+                        <div class="service-title">
+                            <div class="service-title-name">
+                                <div class="bg-primary text-center rounded p-3 mx-5 mb-4">
+                                    <a href="#" class="h4 text-white mb-0">Test Preparation</a>
+                                </div>
+                                <a class="btn bg-light text-secondary rounded-pill py-3 px-5 mb-4" href="#">Explore More</a>
+                            </div>
+                            <div class="service-content pb-4">
+                                <a href="#"><h4 class="text-white mb-4 py-3">Test Preparation</h4></a>
+                                <div class="px-4">
+                                    <p class="mb-4">We provide coaching and resources for IELTS, TOEFL, GRE, and other international exams to help you excel.</p>
+                                    <a class="btn btn-primary border-secondary rounded-pill text-white py-3 px-5" href="#">Explore More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Service 5 -->
+            <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="service-item">
+                    <div class="service-inner">
+                        <div class="service-img">
+                            <img src="img/service-2.jpg" class="img-fluid w-100 rounded" alt="Travel & Accommodation">
+                        </div>
+                        <div class="service-title">
+                            <div class="service-title-name">
+                                <div class="bg-primary text-center rounded p-3 mx-5 mb-4">
+                                    <a href="#" class="h4 text-white mb-0">Travel & Accommodation</a>
+                                </div>
+                                <a class="btn bg-light text-secondary rounded-pill py-3 px-5 mb-4" href="#">Explore More</a>
+                            </div>
+                            <div class="service-content pb-4">
+                                <a href="#"><h4 class="text-white mb-4 py-3">Travel & Accommodation</h4></a>
+                                <div class="px-4">
+                                    <p class="mb-4">We assist students with flight bookings, accommodation, and orientation to settle seamlessly in their new destination.</p>
+                                    <a class="btn btn-primary border-secondary rounded-pill text-white py-3 px-5" href="#">Explore More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Service 6 -->
+            <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="service-item">
+                    <div class="service-inner">
+                        <div class="service-img">
+                            <img src="img/service-3.jpg" class="img-fluid w-100 rounded" alt="Cultural Exchange">
+                        </div>
+                        <div class="service-title">
+                            <div class="service-title-name">
+                                <div class="bg-primary text-center rounded p-3 mx-5 mb-4">
+                                    <a href="#" class="h4 text-white mb-0">Cultural Exchange Programs</a>
+                                </div>
+                                <a class="btn bg-light text-secondary rounded-pill py-3 px-5 mb-4" href="#">Explore More</a>
+                            </div>
+                            <div class="service-content pb-4">
+                                <a href="#"><h4 class="text-white mb-4 py-3">Cultural Exchange Programs</h4></a>
+                                <div class="px-4">
+                                    <p class="mb-4">We create opportunities for students to explore new cultures while learning, broadening their horizons beyond classrooms.</p>
+                                    <a class="btn btn-primary border-secondary rounded-pill text-white py-3 px-5" href="#">Explore More</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Modal Search End -->
+    </div>
+</div>
+<!-- Services End -->
 
-        <!-- Header Start -->
-        <div class="container-fluid bg-breadcrumb">
-            <div class="container text-center py-5" style="max-width: 900px;">
-                <h3 class="text-white display-3 mb-4 wow fadeInDown" data-wow-delay="0.1s">Our Training</h1>
-                <ol class="breadcrumb justify-content-center text-white mb-0 wow fadeInDown" data-wow-delay="0.3s">
-                    <li class="breadcrumb-item"><a href="index.html" class="text-white">Home</a></li>
-                    
-                    <li class="breadcrumb-item active text-secondary">Training</li>
-                </ol>    
+
+
+       <!-- Counter Facts Start -->
+<div class="container-fluid counter-facts py-5">
+    <div class="container py-5">
+        <div class="row g-4">
+            <div class="col-12 col-sm-6 col-md-6 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="counter">
+                    <div class="counter-icon">
+                        <i class="fas fa-plane-departure"></i>
+                    </div>
+                    <div class="counter-content">
+                        <h3>Flight Tickets Booked</h3>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <span class="counter-value" data-toggle="counter-up">15</span>
+                            <h4 class="text-secondary mb-0" style="font-weight: 600; font-size: 25px;">K+</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-6 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="counter">
+                    <div class="counter-icon">
+                        <i class="fas fa-user-shield"></i>
+                    </div>
+                    <div class="counter-content">
+                        <h3>Travelers Insured</h3>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <span class="counter-value" data-toggle="counter-up">9</span>
+                            <h4 class="text-secondary mb-0" style="font-weight: 600; font-size: 25px;">K+</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-6 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="counter">
+                    <div class="counter-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <div class="counter-content">
+                        <h3>Destinations Covered</h3>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <span class="counter-value" data-toggle="counter-up">120</span>
+                            <h4 class="text-secondary mb-0" style="font-weight: 600; font-size: 25px;">+</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-6 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                <div class="counter">
+                    <div class="counter-icon">
+                        <i class="fas fa-smile"></i>
+                    </div>
+                    <div class="counter-content">
+                        <h3>Happy Clients</h3>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <span class="counter-value" data-toggle="counter-up">99</span>
+                            <h4 class="text-secondary mb-0" style="font-weight: 600; font-size: 25px;">%</h4>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <!-- Header End -->
+    </div>
+</div>
+<!-- Counter Facts End -->
 
-        <!-- Training Start -->
+
+       <!-- Countries We Offer Start -->
+<div class="container-fluid country overflow-hidden py-5">
+    <div class="container py-5">
+        <div class="section-title text-center wow fadeInUp" data-wow-delay="0.1s" style="margin-bottom: 70px;">
+            <div class="sub-style">
+                <h5 class="sub-title text-primary px-3">DESTINATIONS WE COVER</h5>
+            </div>
+            <h1 class="display-5 mb-4">Study Abroad Opportunities in Top Countries</h1>
+            <p class="mb-0">At Study Barn Travels, we partner with leading institutions across the globe to give students access to the best educational and cultural experiences. Here are some of our top study destinations:</p>
+        </div>
+        <div class="row g-4 text-center">
+            <div class="col-lg-6 col-xl-3 mb-5 mb-xl-0 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="country-item">
+                    <div class="rounded overflow-hidden">
+                        <img src="img/country-1.jpg" class="img-fluid w-100 rounded" alt="UK">
+                    </div>
+                    <div class="country-flag">
+                        <img src="img/uk2.jpg" class="img-fluid rounded-circle" alt="UK Flag">
+                    </div>
+                    <div class="country-name">
+                        <a href="#" class="text-white fs-4">United Kingdom</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-xl-3 mb-5 mb-xl-0 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="country-item">
+                    <div class="rounded overflow-hidden">
+                        <img src="img/country-2.jpg" class="img-fluid w-100 rounded" alt="Canada">
+                    </div>
+                    <div class="country-flag">
+                        <img src="img/canada.jpg" class="img-fluid rounded-circle" alt="Canada Flag">
+                    </div>
+                    <div class="country-name">
+                        <a href="#" class="text-white fs-4">Canada</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-xl-3 mb-5 mb-xl-0 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="country-item">
+                    <div class="rounded overflow-hidden">
+                        <img src="img/country-3.jpg" class="img-fluid w-100 rounded" alt="USA">
+                    </div>
+                    <div class="country-flag">
+                        <img src="img/usa.jpg" class="img-fluid rounded-circle" alt="USA Flag">
+                    </div>
+                    <div class="country-name">
+                        <a href="#" class="text-white fs-4">United States</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-xl-3 mb-5 mb-xl-0 wow fadeInUp" data-wow-delay="0.7s">
+                <div class="country-item">
+                    <div class="rounded overflow-hidden">
+                        <img src="img/country-4.jpg" class="img-fluid w-100 rounded" alt="Australia">
+                    </div>
+                    <div class="country-flag">
+                        <img src="img/flag-australia.jpg" class="img-fluid rounded-circle" alt="Australia Flag">
+                    </div>
+                    <div class="country-name">
+                        <a href="#" class="text-white fs-4">Australia</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <a class="btn btn-primary border-secondary rounded-pill py-3 px-5 wow fadeInUp" data-wow-delay="0.1s" href="#">Explore More Countries</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Countries We Offer End -->
+
+
+<!-- Training Start -->
 <div class="container-fluid training overflow-hidden bg-light py-5">
     <div class="container py-5">
         <div class="section-title text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">
@@ -206,144 +511,7 @@
 </div>
 <!-- Training End -->
 
-        
-       <!-- Counter Facts Start -->
-<div class="container-fluid counter-facts py-5">
-    <div class="container py-5">
-        <div class="row g-4">
-            <div class="col-12 col-sm-6 col-md-6 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
-                <div class="counter">
-                    <div class="counter-icon">
-                        <i class="fas fa-plane-departure"></i>
-                    </div>
-                    <div class="counter-content">
-                        <h3>Flight Tickets Booked</h3>
-                        <div class="d-flex align-items-center justify-content-center">
-                            <span class="counter-value" data-toggle="counter-up">15</span>
-                            <h4 class="text-secondary mb-0" style="font-weight: 600; font-size: 25px;">K+</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-6 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
-                <div class="counter">
-                    <div class="counter-icon">
-                        <i class="fas fa-user-shield"></i>
-                    </div>
-                    <div class="counter-content">
-                        <h3>Travelers Insured</h3>
-                        <div class="d-flex align-items-center justify-content-center">
-                            <span class="counter-value" data-toggle="counter-up">9</span>
-                            <h4 class="text-secondary mb-0" style="font-weight: 600; font-size: 25px;">K+</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-6 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
-                <div class="counter">
-                    <div class="counter-icon">
-                        <i class="fas fa-globe"></i>
-                    </div>
-                    <div class="counter-content">
-                        <h3>Destinations Covered</h3>
-                        <div class="d-flex align-items-center justify-content-center">
-                            <span class="counter-value" data-toggle="counter-up">120</span>
-                            <h4 class="text-secondary mb-0" style="font-weight: 600; font-size: 25px;">+</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-6 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
-                <div class="counter">
-                    <div class="counter-icon">
-                        <i class="fas fa-smile"></i>
-                    </div>
-                    <div class="counter-content">
-                        <h3>Happy Clients</h3>
-                        <div class="d-flex align-items-center justify-content-center">
-                            <span class="counter-value" data-toggle="counter-up">99</span>
-                            <h4 class="text-secondary mb-0" style="font-weight: 600; font-size: 25px;">%</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Counter Facts End -->
-        
-       <!-- Countries We Offer Start -->
-<div class="container-fluid country overflow-hidden py-5">
-    <div class="container py-5">
-        <div class="section-title text-center wow fadeInUp" data-wow-delay="0.1s" style="margin-bottom: 70px;">
-            <div class="sub-style">
-                <h5 class="sub-title text-primary px-3">DESTINATIONS WE COVER</h5>
-            </div>
-            <h1 class="display-5 mb-4">Study Abroad Opportunities in Top Countries</h1>
-            <p class="mb-0">At Study Barn Travels, we partner with leading institutions across the globe to give students access to the best educational and cultural experiences. Here are some of our top study destinations:</p>
-        </div>
-        <div class="row g-4 text-center">
-            <div class="col-lg-6 col-xl-3 mb-5 mb-xl-0 wow fadeInUp" data-wow-delay="0.1s">
-                <div class="country-item">
-                    <div class="rounded overflow-hidden">
-                        <img src="img/country-1.jpg" class="img-fluid w-100 rounded" alt="UK">
-                    </div>
-                    <div class="country-flag">
-                        <img src="img/uk2.jpg" class="img-fluid rounded-circle" alt="UK Flag">
-                    </div>
-                    <div class="country-name">
-                        <a href="#" class="text-white fs-4">United Kingdom</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 col-xl-3 mb-5 mb-xl-0 wow fadeInUp" data-wow-delay="0.3s">
-                <div class="country-item">
-                    <div class="rounded overflow-hidden">
-                        <img src="img/country-2.jpg" class="img-fluid w-100 rounded" alt="Canada">
-                    </div>
-                    <div class="country-flag">
-                        <img src="img/canada.jpg" class="img-fluid rounded-circle" alt="Canada Flag">
-                    </div>
-                    <div class="country-name">
-                        <a href="#" class="text-white fs-4">Canada</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 col-xl-3 mb-5 mb-xl-0 wow fadeInUp" data-wow-delay="0.5s">
-                <div class="country-item">
-                    <div class="rounded overflow-hidden">
-                        <img src="img/country-3.jpg" class="img-fluid w-100 rounded" alt="USA">
-                    </div>
-                    <div class="country-flag">
-                        <img src="img/usa.jpg" class="img-fluid rounded-circle" alt="USA Flag">
-                    </div>
-                    <div class="country-name">
-                        <a href="#" class="text-white fs-4">United States</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 col-xl-3 mb-5 mb-xl-0 wow fadeInUp" data-wow-delay="0.7s">
-                <div class="country-item">
-                    <div class="rounded overflow-hidden">
-                        <img src="img/country-4.jpg" class="img-fluid w-100 rounded" alt="Australia">
-                    </div>
-                    <div class="country-flag">
-                        <img src="img/flag-australia.jpg" class="img-fluid rounded-circle" alt="Australia Flag">
-                    </div>
-                    <div class="country-name">
-                        <a href="#" class="text-white fs-4">Australia</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12">
-                <a class="btn btn-primary border-secondary rounded-pill py-3 px-5 wow fadeInUp" data-wow-delay="0.1s" href="#">Explore More Countries</a>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Countries We Offer End -->
 
-        
        <!-- Footer Start -->
 <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
     <div class="container py-5">
